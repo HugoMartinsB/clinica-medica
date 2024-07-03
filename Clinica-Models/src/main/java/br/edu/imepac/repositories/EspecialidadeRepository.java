@@ -1,9 +1,10 @@
 package br.edu.imepac.repositories;
 
-import br.edu.imepac.models.ConvenioModel;
+import br.edu.imepac.models.EspecialidadeModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface ConvenioRepository extends JpaRepository<ConvenioModel, Long> {
+public interface EspecialidadeRepository extends JpaRepository<EspecialidadeModel, Long> {
+
 }
